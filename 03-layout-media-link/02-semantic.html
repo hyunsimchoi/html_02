@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        header, nav, section, article, aside, footer {
+            border: 2px solid #94a3b8;
+            margin: 6px;
+            padding: 8px;
+
+
+        }
+
+        header {background: #e2e8f0; }
+        nav ul {background: #f1f5f9; }
+        article {background: #f1cc6f; }
+        aside {background: #ffffff; }
+        footer {background: #e2e8f0; }
+    </style>
+</head>
+<body>
+<!--
+시맨틱 태그는 기본 동작이 div와 같음 (이름만 다른 div)
+왜 쓰느냐, 검색엔진 등에서 목적을 알아들을 수 있 도록 사용함
+-->
+
+<header>
+    <h1>header : 사이트 이름, 로그</h1>
+    <nav>
+        <a href="#">홈</a> ㅣ <a href="#">소개</a> ㅣ <a href="#">게시판</a>
+
+    </nav>
+
+</header>
+<main>
+    main : 페이지의 핵심 본문
+    <section>
+        <h2>section : 주제별 구역</h2>
+        <article>
+            <h3>article : 그 자체로 완결된 글 (블로그 글, 뉴스 기사 등)</h3>
+            <p>이제 이 자리에 내용들이 들어가면 되겠지요</p>
+
+        </article>
+
+    </section>
+    <aside>aside : 광고, 관련 글 같은 곁가지 내용</aside>
+
+</main>
+<footer>
+    footer : 저작권, 연락처 등
+</footer>
+
+</body>
+</html>

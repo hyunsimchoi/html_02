@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            margin:10px 0;
+        }
+        code{
+            display: inline-block;
+            width: 13%;
+            color: #ea508c;
+        }
+
+    </style>
+</head>
+<body>
+<h2>기본 type</h2>
+<p><code>text</code><input type="text" value="홍길동"/></p>
+<p><code>password</code><input type="password" value="12345"/></p>
+<p><code>gidden</code><input type="hidden" value="event"/></p>
+<p>
+    <code>checkbox</code>
+    <input type="checkbox" name="fruit" value="apple" checked/> 사과
+    <input type="checkbox" name="fruit" value="banana" /> 바나나
+<!--  checkbox는 여러개를 동시에 선택이 가능함
+  동일한 name을 갖는 checkbox들은 값이 array로 담겨서 전송됨-->
+
+</p>
+
+<p>
+    <code>radio</code>
+
+    <input type="radio" name="gender" value="m" checked /> 남
+    <input type="radio" name="gender" value="f" /> 여
+
+</p>
+
+<p><code>file</code><input type="file"/></p>
+<p><code>tel</code><input type="tel" placeholder="010-1234-5678" /></p>
+<!-- tel은 pc에서는 그냥 text와 같음. 하지만 모바일에서는 숫자 키패드가 뜨며, -를 허용-->
+
+<p><code>number</code><input type="number" value="3"/></p>
+<!-- number는 숫자만 기본적으로 잉ㅂ력되며 화살표키로 상하 크기를 변경, pc에서 억지로 한글을 입력할 수 있음-->
+<p><code>email</code><input type="email" placeholder="hello@example.com" /></p>
+<!--  email은 text와 같지만, 전송할 때 email 형식을 검사해줌 그리고 모바일에서 키보드에 @와 .을 꺼내 줌-->
+<p><code>date</code><input type="date"/></p>
+<p><code>datetime-local</code><input type="datetime-local"/></p>
+<p><code>time</code><input type="time"/></p>
+<p><code>range</code><input type="range"/></p>
+<p><code>color</code><input type="color"/></p>
+<p><code>url</code><input type="url"</p>>
+
+
+</body>
+</html>

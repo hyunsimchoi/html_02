@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="get">
+<!--    fieldset : 풀 요소를 시각적으로 묶음 -->
+    <fieldset>
+<!--    legend : 이 fieldset 묶음의 이름표    -->
+        <legend>기본 정보</legend>
+        <label>
+            이메일<input type="text" name="email" placeholder="이메일을 입력해주세요" autofocus/>
+
+        </label>
+        <label>
+            아이디 <input type="text" name="id" required minlength="4" maxlength="12"/>
+
+
+        </label>
+
+        <label>
+
+            가입 코드 <input type="text" name="code" value="WELCOME" readonly/>
+
+        </label>
+    </fieldset>
+
+
+    <fieldset>
+        <label>
+            인원 <input type="number" name="people" min="1" max="10" step="4" value="2 />
+        </label>
+
+    </fieldset>
+    <button type="submit">전송</button>
+
+
+</form>
+</body>
+</html>
